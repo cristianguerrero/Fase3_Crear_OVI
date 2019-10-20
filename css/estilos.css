@@ -1,11 +1,11 @@
-
 /* index */
-header{
-	margin-bottom: 20px;
+
+header {
+    margin-bottom: 20px;
 }
 
-#logo{
-	width: 100px;
+#logo {
+    width: 100px;
     margin-left: 60px;
 }
 
@@ -16,29 +16,26 @@ header{
     vertical-align: middle;
 }
 
-.titulo{
-	text-align: center;
-	color: #005883;
+.titulo {
+    text-align: center;
+    color: #005883;
 }
 
-.menu{
-	background-color: #005883;
+.menu {
+    background-color: #005883;
     color: white;
     padding: 15px;
     margin-top: 30px;
 }
 
-.menu ul li{
-	padding: 10px;
+.menu ul li {
+    padding: 10px;
     background-color: #fff;
     margin-bottom: 12px;
     text-align: center;
 }
 
-
 /* Lecturas */
-
-
 
 /* Modificación css material */
 
@@ -50,13 +47,15 @@ nav {
     line-height: 56px;
 }
 
-.pdg0{
-	padding: 0 !important;
+.pdg0 {
+    padding: 0 !important;
 }
 
-
-@media only screen and (min-width: 601px)
-nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+@media only screen and (min-width: 601px) nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
     height: 100px;
     line-height: 64px;
+}
+
+p {
+    text-align: justify;
 }
