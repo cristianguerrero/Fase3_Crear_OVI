@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.menu li:has(ul)').click(function (e) {
+    $('.menu li:has(ul)').hover(function (e) {
         e.preventDefault();
 
         if ($(this).hasClass('activado')) {
