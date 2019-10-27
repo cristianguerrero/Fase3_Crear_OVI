@@ -37,6 +37,52 @@ header {
 
 /* Lecturas */
 
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li a {
+    color: #005883;
+    background-color: #fff;
+    display: block;
+    padding: 10px;
+}
+
+.menu ul li a:hover {
+    background: #1a95d5;
+    color: white;
+}
+
+.menu ul ul {
+    display: none;
+}
+
+.menu ul ul li a {
+    background: #424242;
+    color: #e9e9e9;
+}
+
+.menu ul .activado>a {
+    background: #1a95d5;
+    color: white;
+}
+
+@media screen and (max-width:100px) {
+    body {
+        padding-top: 80px;
+    }
+    .menu {
+        margin: 0;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+    .menu ul {
+        display: none;
+    }
+}
+
 /* Modificación css material */
 
 nav {
@@ -66,7 +112,7 @@ footer {
     height: 20%;
     margin-top: 10px;
     /*border-top: 3px solid #005883;*/
-    background-color:  #005883;
+    background-color: #005883;
 }
 
 #logoscalidad {
@@ -76,6 +122,6 @@ footer {
 
 #letrafooter {
     font-size: 12px;
-    font-weight:bold;
+    font-weight: bold;
     color: white;
 }
