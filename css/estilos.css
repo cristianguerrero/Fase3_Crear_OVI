@@ -1,4 +1,14 @@
 /* index */
+@font-face { 
+    font-family: "Franklin Gothic Book"; src: url('fuentes/FRABKIT.ttf');
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Franklin Gothic Book";
+}
 
 header {
     margin-bottom: 20px;
