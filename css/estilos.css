@@ -112,6 +112,19 @@ nav {
     line-height: 64px;
 }
 
+.cencel{
+    text-align: center;
+}
+
+.cencel p{
+    text-align: center;
+}
+
+#twitter-widget-0{
+    border-style: dotted !important;
+    margin-top: 30px !important;
+}
+
 p {
     text-align: justify;
 }
